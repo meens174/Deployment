@@ -1,7 +1,7 @@
 package_name: regression_model
 
-training_data_file:train.csv
-test_data_file:test.csv
+training_data_file: train.csv
+test_data_file: test.csv
 
 # Variables
 # The variable we are attempting to predict (sale price)
