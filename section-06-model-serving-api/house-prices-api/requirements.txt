@@ -4,7 +4,8 @@ python-multipart>=0.0.5,<0.1.0
 pydantic>=1.10.4,<1.12.0
 typing_extensions>=4.2.0,<5.0.0
 loguru>=0.5.3,<1.0.0
-../../dist/my_regression_model-0.0.1.tar.gz
+#../../dist/my_regression_model-0.0.1.tar.gz
+my_regression_model-0.0.1.tar.gz
 # We will explain this in the course
 
 feature-engine>=1.0.2,<1.6.0  # breaking change in v1.6.0
