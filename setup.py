@@ -8,8 +8,8 @@ from setuptools import find_packages, setup
 # Package meta-data.
 NAME = 'my-regression-model'
 DESCRIPTION = "Example regression model package ."
-URL = "https://github.com/meens174/Deployment/testing-and-monitoring-ml-deployments"
-EMAIL = ""
+URL = "https://github.com/meens174/Deployment"
+EMAIL = "meens.v1986@gmail.com"
 AUTHOR = "MV"
 REQUIRES_PYTHON = ">=3.6.0"
 
@@ -42,8 +42,8 @@ setup(
     description=DESCRIPTION,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    # author=AUTHOR,
-    # author_email=EMAIL,
+    author=AUTHOR,
+    author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
     packages=find_packages(exclude=("tests",)),

@@ -8,6 +8,8 @@ from regression_model.processing.data_manager import load_dataset
 
 from app.main import app
 
+# from main import app
+
 
 @pytest.fixture(scope="module")
 def test_data() -> pd.DataFrame:
